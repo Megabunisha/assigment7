@@ -1,0 +1,27 @@
+{
+  "name": "fullstack-social-media-app",
+  "version": "1.0.0",
+  "description": "Week 07 Minor Project: Full Stack Social Media App (MERN Stack: React, Node.js, Express, MongoDB)",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "build": "npm --prefix client run build",
+    "start": "npm --prefix server start"
+  },
+  "keywords": [
+    "mern",
+    "react",
+    "express",
+    "nodejs",
+    "mongodb",
+    "social-media",
+    "jwt-authentication"
+  ],
+  "author": "Student Developer",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
